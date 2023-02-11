@@ -1,4 +1,4 @@
-let str= "Дима ЛОХ"
+let str= "фраза"
 for (i = 0; i < 1000; i++) {
     console.log (str)
 }
