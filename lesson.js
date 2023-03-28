@@ -74,12 +74,14 @@
 // str4 = str1[0] + str2[1] +str3[2]
 // console.log(str4);
 
-let str1 = "Капуста";
-let str2 ="Морковь";
-let str3= "Свветана";
-let str4="";
-for(i=0;i < str1.length;i++) {
-    str4 = str1[i] + str2[i] +str3[i];
-    console.log (str4)
-}
+//let str1 = "Капуста";
+//let str2 ="Морковь";
+//let str3= "Свветана";
+//let str4="";
+//for(i=0;i < str1.length;i++) {
+//    str4 = str1[i] + str2[i] +str3[i];
+//    console.log (str4)
+//}
+
+
 
