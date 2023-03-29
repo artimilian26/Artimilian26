@@ -83,5 +83,21 @@
 //    console.log (str4)
 //}
 
+//let str = "мама мыла раму";
+//let arr = str.split(" ");
+//console.log(arr);
+///console.log(arr[2]);
+////let str1 =arr.join("-");
+//console.log(str1);
 
-
+//let str = "амеба это одноклеточное";
+//function krazha(str){
+//    let str1 ="";
+//    for (i=0 ; i <str.length;i++){
+//    if (str[i]==" "){
+//        str1=str1+"-"
+//    } else str1=str1+str[i];
+//}console.log(str1)
+//return str1.toUpperCase();
+//}
+//console.log(krazha(str));
