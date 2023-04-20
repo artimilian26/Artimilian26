@@ -101,3 +101,152 @@
 //return str1.toUpperCase();
 //}
 //console.log(krazha(str));
+
+//Функция которая принимает в себя число от одного до семи, а возвращает в себя день недели
+
+//function dayWeek(num) {
+//    let dayArr = [
+//        "Понедельник",
+//        "вторник",
+//        "среда",
+//        "четверг",
+//        "пятница",
+//        "суббота",
+//        "воскресенье",
+//    ];
+//    return dayArr = [num -1];
+//}console.log(dayWeek(1));
+
+//let arrNum = [1, 7,-3, 15,18, 4, 8, -9]
+//function newArr(arrNum) {
+//    let arrNum2 =[]
+////    for (i = 0; i < arrNum.lenght; i++){
+//        if (arrNum[i]> 0 && arrNum[i]< 10){
+//        arrNum2.push(arrNum[i]);
+ ///       console.log(i);
+ //   }
+//}return arrNum2;
+//}console.log(newArr(arrNum));
+
+// let arr= [1,2,3,4,5,6,7];
+// function fire(arr) {
+//     let newArr =[];
+//     let dom = [];
+//     for (i=0 ; i <arr.length;i++){
+//         for (j in arr){
+//         if (arr[i] + arr[j]== 7 && i!=j )
+//         newArr[0] =arr[i]
+//         newArr[1] =arr[j]
+//         console.log(newArr.join(":"));
+//         dom[i] = newArr.join(":")
+//         }
+//     }
+// return dom;
+// }console.log(fire(arr));
+
+// let srt = "javaScript"
+// function mir(str) {
+//     let arr= []
+//     for (i=0 ; i <str.length;i++){
+//         if(i == 0){
+//             arr[i] = str[i+1]
+//         }else if (i ===str.length){
+//         arr[i]=str[i+1] +str[i]
+//     } 
+    
+        
+// // }
+
+// let arr =[1,2,3,4,5,6,7];
+// function fire(arr) {
+//     let sum = 0;
+//     let count = 0;
+//     for (i=0 ; i <arr.length;i++){
+//         if (sum<=10){
+//             sum =sum+arr[i]
+//         }
+//     }
+// }
+
+// let a=[1,2,3];
+// let b=[4,5,6];
+// let c=[7,8,9];
+// let getArr =(a,b,c) => {
+//     let result = []
+//     result = a + "," + b + "," + c;
+
+//     return result.split(",").sort().reverse()
+// };
+// console.log(getArr(a,b,c));
+
+// let arr = [1,2,3,4,5];
+// let cho = (arr) => {
+//     let newarr = [];
+//     for(i in arr){
+//         newarr[i]=arr[arr.length-i-1];
+//     }
+//     return newarr;
+// };
+// console.log(cho(arr));
+
+// let esc = (str) => {
+//     let arr = [];
+//     for (i=0 ; i <repeat;i++){
+//         arr[i]= str
+//     }
+// };
+// console.log(esc(str));
+
+// const user = {
+//     userName: "Вася Пупкин",
+//     age: 30, 
+// };
+// console.log(user(userName));
+// user.isAdmin = true
+// console.log(user);
+
+// const user = {
+//     userName: "Вася",
+//     age: 30, 
+//     city: " Лысково",
+//     isAdmin: true,
+// };
+//  let fun = (obj, field) => {
+//     delete obj[field];
+//     return obj;
+//  }
+//  console.log(fun(user, "field"));
+ 
+//  const user = {
+//     userName: "Вася",
+//     age: 30, 
+//     city: " Лысково",
+//     isAdmin: true,
+// };
+//  let fun = (obj, ...field) => {
+//     for (i= 0; i <field.length; i++)
+//     delete obj[field[i]]
+//     return obj;
+//  }
+//  console.log(fun(user, "city", "age", "isAdmin"));
+
+
+// const user = {
+//     userName: "Вася",
+//     userSurname: "Пупкин",
+//     userMembership: "Алибабаевич",
+//     age: 30, 
+//     city: " Лысково",
+//     isAdmin: true,
+// };
+// let fun = (obj, field) => {
+//     for(key in obj){
+//         if(obj[key]===obj[field]){
+//             return true
+//         }
+//         return false
+//     }
+// }
+// console.log(fun(user, "city"));
+// console.log(fun(user, "bebe"));
+

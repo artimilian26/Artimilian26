@@ -9,13 +9,36 @@
 
 //Функция, принимает в себя строку каждую первую букву каждого слова преобразует в верхний регистр.
 //вася пупкин -> Вася Пупкин
-let str = "вася пупкин";
-function goroh(str) {
-    let str1 = "";
-    for (i=0; i < str.length; i++ ){
-        if (str[i] == str.toUpperCase()) {
-            str1 =str1 + str[i].toLowerCase()
-        }
+//let str = "вася пупкин";
+//function goroh(str) {
+ //   let str1 = "";
+ //   for (i=0; i < str.length; i++ ){
+//        if (str[i] == str.toUpperCase()) {
+ //           str1 =str1 + str[i].toLowerCase()
+   //     }
+  //  }
+ //   return str.toUpperCase()
+///}console.log (goroh(str))
+//or (let i of arrNum )
+
+// let num = [0,1,5,91,9,-57, 62, 3, 11];
+// function slojen(num){
+//     let nim = 0;
+//     let nem = nim;
+//     for(i=0; i<num.length ;i++){
+//         nim =nim+num[i]
+//         nem = nim / (i+1);
+//     } 
+//     return nem;
+// } 
+// console.log(slojen(num));
+
+let perevert = (a) => {
+    let b = a. split(''). reverse(). join('')
+    if ( a. toLowerCase() == b. toLowerCase()) {
+      return true
+    } else {
+      return false
     }
-    return str.toUpperCase()
-}console.log (goroh(str))
+  }
+  console.log(perevert(a))

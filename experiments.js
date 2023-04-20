@@ -7,5 +7,5 @@
 //    }
 //}
 let str = "Бабушка";
-for (i= 0; i <=1000; i++)
+с
 console.log (str)
