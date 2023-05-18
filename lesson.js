@@ -250,3 +250,64 @@
 // console.log(fun(user, "city"));
 // console.log(fun(user, "bebe"));
 
+
+// const objweek = {
+//     1: "Понедельник",
+//     2: "вторник",
+//     3: "среда",
+//     4: "четверг",
+//     5: "пятница",
+//     6: "суббота",
+//     7: "воскресенье",
+// }
+// let i = (num) => {
+//     return  objweek[num]
+// }
+// console.log(i(5));
+
+// const func = function () {
+//     return "Hello";
+// };
+// console.log(func());
+// console.log(func);
+
+// const func1 = function (fn) {
+//     return fn();
+// };
+// console.log(func1(func));
+
+// const makeZakaz = function (){
+//     console.log("Заказ на обработке");
+//     setTimeout(cb, 5000);
+// }
+// const readBook = function (){
+//     console.log("Читаю книгу");
+// }
+// const Gotov = function (){
+//     console.log("заказ приехал");
+// }
+// makeZakaz(Gotov)
+// readBook()
+
+// let arr = [
+//     {id: 1, name: "Петя"},
+//     {id: 2, name: "Игнат"},
+//     {id: 3, name: "Афонасий"},
+// ];
+// let user = arr.find(item => item.id == 3)
+// console.log(user.name);
+
+// let arr = ["ААА", "КККККК", "РРРРРРРР"].map ((el) => el.length)
+// console.log(arr);
+
+
+// let namb = [2,3,5,7,11,13,17,19];
+// let gatSumEl = (namb) => {
+//     let result=[];
+//     namb.reduce((sum,el,i) => {
+//         sum = sum+el;
+//         result[i] = sum;
+//     }, 8);
+//     return result;
+// };
+// console.log(gatSumEl(namb));
