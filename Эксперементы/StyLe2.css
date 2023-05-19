@@ -1,0 +1,15 @@
+html, body {
+    background-image: url(123.jpg);
+    font-family: Arial, Tahoma;
+}
+
+#header {
+    background-image: url("Слой 1.png");
+    position: fixed;
+    left: 0px;
+    top: 28px;
+    width: 1896px;
+    height: 280px;
+    z-index: 1;
+  }
+  
