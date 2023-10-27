@@ -10,6 +10,6 @@
 // с
 // console.log (str)
 
-let str = "Лера прости меня пожалуйста";
-for (i= 0; i <=1000; i++)
+let str = "мне никто не нужен";
+for (i= 0; i <=100; i++)
 console.log (str)

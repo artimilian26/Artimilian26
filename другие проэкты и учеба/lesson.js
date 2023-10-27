@@ -301,13 +301,39 @@
 // console.log(arr);
 
 
-// let namb = [2,3,5,7,11,13,17,19];
-// let gatSumEl = (namb) => {
-//     let result=[];
-//     namb.reduce((sum,el,i) => {
-//         sum = sum+el;
-//         result[i] = sum;
-//     }, 8);
-//     return result;
-// };
-// console.log(gatSumEl(namb));
+let namb = [2,3,5,7,11,13,17,19];
+let gatSumEl = (namb) => {
+    let result=[];
+    namb.reduce((sum,el,i) => {
+        sum = sum+el;
+        result[i] = sum;
+    }, 8);
+    return result;
+};
+console.log(gatSumEl(namb));
+
+
+<header>
+        <div ckass="top-hader"></div>
+        <div ckass="top-hader-wrap"></div>
+        <div ckass="logo">
+            <a href="#">
+                <img src="images/logo.png" alt="логотип рубльбанка">
+            </a>
+        </div>
+        <div ckass="top-menu-l-r">
+         <nav ckass="top-menu-l">
+           <ul>
+            <li><a href="#">Частным Клиентам</a> </li>
+            <li><a href="#">Бизнесу</a> </li>
+            <li><a href="#">Самозанятым</a> </li>
+           </ul>
+        </nav>
+        <nav ckass="top-menu-r">
+            <ul>
+                <li><a href="#">Отделения и банкоматы</a> </li>
+                <li><a href="#">РубльБанк Онлайн</a> </li>
+            </ul>
+        </nav>
+    </div>
+    </header>
